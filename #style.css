@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display:flex;
+    justify-content: right;
+    align-items: right;
+}
+.social a {
+    font-size: 24px;
+    letter-spacing: 24px;
+    color: #000000;
+  }
+  .social a:hover {
+    color: #f78104;
+    text-shadow: 2px 2px #00000015;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+  }
